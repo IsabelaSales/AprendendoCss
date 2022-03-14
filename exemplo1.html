@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Mundo!</title>
+    <script>
+        let a = "carro";
+        var b = 1
+        const c = "casa"
+        function clickNoBotao() {
+            alert("Olá Mundo!");
+        }
+        function atualizacaoTexto() {
+            let input = document.getElementById("meuinput");
+            let p = document.getElementById("para");
+
+            p.textContent = input.value;
+
+            console.log("Oi")
+        }
+    </script>
+    <style>
+        body {
+            background-color: deeppink
+        }
+
+        p {
+            background-color: lightyellow;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: tahoma;
+            color: black;
+            font-size: 32px;
+            background-color: lightyellow;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border: solid 5px purple;
+            padding: 2px;
+            margin-top: 10px;
+         margin-bottom: 10px;
+        }
+
+        .margem-minima {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .margem-minima input,
+        .margem-minima select,
+        .margem-minima button{
+            width:50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Título</h1>
+        <h2>Título</h2>
+        <p id="para">Qualquer Texto</p>
+        <span> Informação</span>
+    </div>
+    <img src="dev.png" />
+
+    <div class="margem-minima">
+        <a href="https://google.com.br">link para o goolge</a>
+    </div>
+    <div class="margem-minima">
+        <input id="meuinput" type="number" oninput="atualizacaoTexto()" />
+    </div>
+    <div class="margem-minima">
+        <select>
+            <option> Opção-1</option>
+            <option> Opção-2</option>
+            <option> Opção-3</option>
+        </select>
+        <div class="margem-minima">
+            <button onclick="clickNoBotao()"> texto do botão </button>
+        </div>
+        <div class="margem-minima">
+
+        </div>
+        <div class="margem-minima">
+            
+        </div>
+        <div class="margem-minima">
+            
+        </div>
+
+</body>
+
+</html>
