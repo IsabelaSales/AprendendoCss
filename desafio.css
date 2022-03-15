@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#barramenu{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+#barramenu img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+#barramenu span{
+    font-size: 50px;
+    font-weight: bold;
+}
+#mansao img{
+    height: auto;
+    width: 90%;
+    padding: 5%;
+}
+.informacoes1{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+
+.informacoes2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+}
